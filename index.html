@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>Document</title>
 </head>
-<body>
-    <h1>Sending an email form</h1>
-    <p>In order to use this form you will need to input your email and details and submit the information required. Testing this page will require the your@email.com to be changed to a legitimate email.</p>
-    <form action="https://simple-form.com/your@email.com" method="POST">
+<body class = "light_mode">
+    <h1>Email Note to Self:</h1>
+    <p>In order to use this form you will need to input your email and details and submit the information required.<br> Testing this page will require the your@email.com to be changed to a legitimate email within form action.</p>
+    <form action="https://simple-form.com/chen.andrew772@gmail.com" method="POST">
         <div>
             <label id = "name">Name:</label>
-            <input type="text" name="name" placeholder="Firstname Lastname" />
+            <input type="text" name="name" placeholder="Firstname Lastname" size="30"/>
         </div>
         <div>
             <label id = "email">Email:</label>
-            <input type="email" name="email" placeholder="email@domain.com" />
+            <input type="email" name="email" placeholder="email@domain.com" size="30" required/>
         </div>
         <div>
             <label id = "notetoself">Note to self:</label><br>
-            <textarea name="message" placeholder="Your message"></textarea>
+            <textarea name="message" placeholder="Your message" rows = "20" cols = "32" required></textarea>
         </div>
         <div>
-            <input type="submit" value="Send" />
+            <button type="submit" class = "light_mode"> Send </button>
         </div>
     </form>
 </body>
