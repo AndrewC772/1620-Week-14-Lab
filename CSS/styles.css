@@ -11,4 +11,7 @@ div {
 button.light_mode {
     background-color: azure;
     color:grey;
+    padding: 25px;
+    border-radius: 6px;
+    font-size: 1.5rem;
 }
