@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sending an email form</h1>
+    <p>In order to use this form you will need to input your email and details and submit the information required. Testing this page will require the your@email.com to be changed to a legitimate email.</p>
+    <form action="https://simple-form.com/your@email.com" method="POST">
+        <div>
+            <label id = "name">Name:</label>
+            <input type="text" name="name" placeholder="Firstname Lastname" />
+        </div>
+        <div>
+            <label id = "email">Email:</label>
+            <input type="email" name="email" placeholder="email@domain.com" />
+        </div>
+        <div>
+            <label id = "notetoself">Note to self:</label><br>
+            <textarea name="message" placeholder="Your message"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Send" />
+        </div>
+    </form>
+</body>
+</html>
