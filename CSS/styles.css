@@ -8,6 +8,14 @@ p {
 div {
     font-size: 1.5rem;
 }
+input {
+    border-radius: 6px;
+}
+textarea {
+    border-radius: 8px;
+    border:azure;
+    border-style: solid;
+}
 button.light_mode {
     background-color: azure;
     color:grey;
